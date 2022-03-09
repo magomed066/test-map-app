@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table, Tag, Space } from 'antd'
+import { Table } from 'antd'
 import { useDispatch, useSelector } from 'react-redux'
 import { setCurrentItem } from '../../features/deliverySlice'
 import SelectComp from '../select/Select'

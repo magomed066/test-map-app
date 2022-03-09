@@ -14,7 +14,7 @@ const SelectComp = ({ items = [], defaultValue = 'Default', from = false }) => {
 
 	useEffect(() => {
 		setList(cities)
-	})
+	}, [])
 
 	const handleChange = (e) => {
 		const item = JSON.parse(e)
